@@ -11,5 +11,10 @@ const intro = document.querySelector("th")
 intro.textContent = "Welcome to my party, homies! I'm glad to see my team!"
 
 const image = document.querySelector("img.Gif-animation")
-const table = document.querySelectorAll("td.class-mainTable__content")
+console.log(image.clientWidth)
+
+const table = document.querySelector("td.mainTable__content")
+console.log(table.clientWidth)
+table.width = 500
+console.log(table.clientWidth)
 
